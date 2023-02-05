@@ -3,9 +3,12 @@ import React from 'react';
 import tw from 'twrnc';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import {theme} from '../../config/color';
+import {useNavigation} from '@react-navigation/native';
+const navigation = useNavigation();
 const Bookcard = () => {
   return (
     <TouchableOpacity
+      onPress={() => navigation.navigate('DetailsScreen')}
       style={tw`bg-[${theme.Light.colors.cardcolor}] w-[48%] px-3 py-4 rounded-md items-center justify-center mb-4`}>
       <Image
         source={{

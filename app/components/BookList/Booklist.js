@@ -18,7 +18,6 @@ const BookList = () => {
             <Bookcard />
             <Bookcard />
             <Bookcard />
-            <Bookcard />
           </View>
         </View>
       </ScrollView>
