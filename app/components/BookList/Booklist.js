@@ -6,9 +6,9 @@ import {ScrollView} from 'react-native-gesture-handler';
 
 const BookList = () => {
   return (
-    <View style={tw`px-6 py-6`}>
+    <View style={tw`px-3 py-2`}>
       <ScrollView showsVerticalScrollIndicator={false}>
-        <View style={tw`justify-between flex-wrap flex-row`}>
+        <View style={tw`justify-between flex-wrap flex-row py-6`}>
           <View style={tw`flex-row justify-between flex-wrap`}>
             <Bookcard />
             <Bookcard />
